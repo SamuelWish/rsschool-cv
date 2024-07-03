@@ -40,3 +40,5 @@ const char *bool_to_word (bool value)
 * HTML Academy (in progress)
 
 ## Languages 
+* English - C1 Advanced (Lingualeo test) + more than 1 year of practice while living abroad
+* Spanish - B1-Intermediate (ESL test) + 1 year practice with native
