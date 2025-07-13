@@ -8,24 +8,26 @@
     <link rel="icon" href="assets/cat-dev.ico">
 </head>
 <body>
-    <div class="container">
         <header>
-            <nav>
-                <ul>
-                    <li>Contacts</li>
-                    <li>About Me</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+            <div class="container">
+               <nav>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contact-info" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#profile" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="experience" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
                 </ul>
-            </nav>
-            <h1>Margarita Kozlova</h1>
+               </nav>
+            <h1>Margarita Kozlova</h1> 
+            </div>
         </header>
         <main>
-            <img src="assets/img/avatar.jpg" alt="my avatar" width="240" height="320">
-        <section class="contact-info">
+            <div class="container">
+                <img src="assets/img/avatar.jpg" alt="my avatar" width="240" height="320">
+        <section class="contact-info" id="#contact-info">
             <h2>Сontact details</h2>
             <ul>
                 <li>Location: Bangkok, Thailand</li>
@@ -35,7 +37,7 @@
                 <li>Telegram: @SamuelWishAndWin</li>
             </ul>
         </section>
-        <section class="profile">
+        <section class="profile" id="#profile">
             <h2>Briefly about me</h2>
             <p>My goal is to help people find ways to improve their quality of life.</p>
             <p>My priorities include:</p>
@@ -46,12 +48,38 @@
             </ul>
             <p>I have patience, persistence and the desire to get to the root of any problem.  I love to study, discover and try new things.</p>
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
             <h2>Skills</h2>
             <ul>
                 <li>- learning C, C#, HTML&amp;CSS, JS</li>
                 <li>- using GitHub, Visual Studio, VS Code, Git Kraken</li>
             </ul>
+        </section>
+        <section class="education" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>- Bryansk State Academician I.G. Petrovski University (psychology)</li>
+                <li>- CS50 lectures</li>
+                <li>- HTML Academy (in progress)</li>
+            </ul>
+        </section>
+        <section class="experience" id="experience">
+            <h2>Courses</h2>
+            <div class="study">
+                <ul>
+                    <li>- freeCodeCamp: Responsive Web Design Course</li>
+                    <li>- RS Schools Course JS/FE Pre-School 2025Q2 (in progress)</li>
+                </ul>
+            </div>
+        </section>
+        <section class="languages" id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>- English - C1 Advanced (Lingualeo test) + more than 1 year of practice while living abroad</li>
+                <li>- Spanish - B1-Intermediate (ESL test) + 1 year practice with native</li>
+            </ul>
+        </section>
+        <section class="code" id="code">
             <h2>Code example</h2>
             <p>Codewars: Convert boolean values to strings 'Yes' or 'No'* task</p>
             <pre>
@@ -65,32 +93,10 @@
             </code>
 			</pre>
         </section>
-        <section class="experience">
-            <h2>Courses</h2>
-            <div class="study">
-                <ul>
-                    <li>- freeCodeCamp: Responsive Web Design Course</li>
-                    <li>- RS Schools Course JS/FE Pre-School 2024Q2 (in progress)</li>
-                </ul>
             </div>
-        </section>
-        <section class="education">
-            <h2>Education</h2>
-            <ul>
-                <li>- Bryansk State Academician I.G. Petrovski University (psychology)</li>
-                <li>- CS50 lectures</li>
-                <li>- HTML Academy (in progress)</li>
-            </ul>
-            <h2>Languages</h2>
-            <ul>
-                <li>- English - C1 Advanced (Lingualeo test) + more than 1 year of practice while living abroad</li>
-                <li>- Spanish - B1-Intermediate (ESL test) + 1 year practice with native</li>
-            </ul>
-        </section>
         </main>
 	    <footer>
-
+            <div class="container"></div>
         </footer>
-    </div>
 </body>
 </html>
