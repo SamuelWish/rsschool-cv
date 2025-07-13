@@ -1,19 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+  min-height: 100vh;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.cv {
+.container {
   background: white;
-  padding: 20px;
-  margin: 20px;
-  max-width: 800px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 header {
@@ -21,8 +25,8 @@ header {
   margin-bottom: 20px;
 }
 
-header h1 {
-  margin: 0;
+img {
+  margin: 0 auto;
 }
 
 .contact-info, .profile, .experience, .education, .skills {
@@ -35,13 +39,16 @@ h2 {
   color: #2619a0;
 }
 
-ul {
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
-  padding: 0;
 }
 
-ul li {
-  margin: 5px 0;
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
 }
 
 .study {
