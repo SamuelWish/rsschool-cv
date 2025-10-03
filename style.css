@@ -29,7 +29,11 @@ img {
   margin: 0 auto;
 }
 
-.contact-info, .profile, .experience, .education, .skills {
+.contact-info,
+.profile,
+.experience,
+.education,
+.skills {
   margin-bottom: 20px;
 }
 
